@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+}
+
+main {
+  width: 60%;
+  height: 100vh;
+  background-color: #fff;
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.input-group {
+  margin-bottom: 20px;
+  padding: 10px;
+  margin: auto;
+  justify-content: center;
+}
+
+.input-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin-right: 5px;
+}
+
+button {
+  padding: 8px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  margin-bottom: 10px;
+  background-color: #eee;
+  color: #2c3e44;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+.check-btn {
+  margin-right: 10px;
+}
+
+.checked {
+  text-decoration: line-through;
+  background-color: #b9b7b7;
+}
+
+.tabs {
+  width: 100%;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.under-line {
+  background-color: #fcd6e3;
+  height: 4px !important;
+  position: absolute;
+  top: 52px;
+  width: 100px;
+  left: 0px;
+  transition: 0.5s;
+}
+
+.tab-group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.tab-group div {
+  width: 33%;
+  cursor: pointer;
+}
